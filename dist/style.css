@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Lexend, system-ui;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.85rem;
+  height: 100px;
+  position: absolute;
+  top: -100px;
+  left: 0;
+  padding: 10px 50px;
+  transition: 0.8s ease-in-out;
+}
+
+.menu.muncul {
+  top: 45px;
+}
+
+/* .tagline {
+  background: url("../img/pattern/pattern.jpg");
+  background-size: 10%;
+} */
+
+.russian-bear {
+  background: url("../img/russian/russian-bear.png") center no-repeat;
+  background-size: 130%;
+}
+
+.france-book {
+  background: url("../img/france/france-book.png") center no-repeat;
+  background-size: 135%;
+}
+
+.france-people {
+  background: url("../img/france/france-people.png") center no-repeat;
+  background-size: cover;
+}
+
+.russian-moskow {
+  background: url("../img/russian/russian-moskow.png") center no-repeat;
+  background-size: 110%;
+}
+
+/* @media (max-width: 480px) {
+  .tagline {
+    background-size: 25%;
+  }
+} */
